@@ -1,16 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Devstrong.ru</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Devstrong.ru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <header>
+        <nav class="mobile-nav">
+            <div class="container">
+                <div class="row align-items-center justify-content-between no-gutters">
+                    <div class="col-6">
+                        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__list-item">
+                                <a href="" class="mobile-nav__list-link">Доставка</a>
+                            </li>
+                            <li class="mobile-nav__list-item">
+                                <a href="" class="mobile-nav__list-link">Оплата</a>
+                            </li>
+                            <li class="mobile-nav__list-item">
+                                <a href="" class="mobile-nav__list-link">Возврат</a>
+                            </li>
+                            <li class="mobile-nav__list-item">
+                                <a href="" class="mobile-nav__list-link">Оптовым покупателям</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <div class="mobile-nav__mobile-phone d-flex align-items-center">
+                            <span>бесплатно по России</span>
+                            <span class="mobile-nav__text-phone">8-800-000-00-00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="search-nav">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center no-gutters">
+                    <div class="col-3">
+                        <div class="logo logo_margin_left">
+                            <a href="#" class="logo__link"><img src="img/logo.png" alt="logo image" class="logo__img"></a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="search">
+                            <input type="text" class="search__input" placeholder="Что Вы ищете?">
+                            <button class="search__button" type="button">
+                                <img src="img/search-icon.png" alt="" class="search__img">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="active-menu d-flex justify-content-between">
+                            <button class="login-btn">
+                                <img src="img/login-icon.png" alt="login-icon">
+                            </button>
+                            <button class="like-btn">
+                                <img src="img/heart-icon.png" alt="heart-icon">
+                                <span class="heart-count color-blue"><sup>3</sup></span>
+                            </button>
+                            <button class="shopping-cart-btn">
+                                <img src="img/shopping-cart.png" alt="shopping-cart-icon">
+                                <span class="products-count color-blue"><sup>2</sup></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="menu-nav">
+            <div class="container">
+                <div class="row align-items-center justify-content-between no-gutters">
+                    <div class="col-3">
+                        <div class="catalog-navbar d-flex justify-content-between align-items-center">
+                            <button class="catalog-button" type="button">
+                                <span class="catalog-button__top-line catalog-button__line"></span>
+                                <span class="catalog-button__middle-line catalog-button__line"></span>
+                                <span class="catalog-button__bottom-line catalog-button__line"></span>
+                            </button>
+                            <button class="catalog-navbar__button" type="button">
+                            	<span class="catalog-navbar__text">Каталог товаров</span>
+                            </button>
+                            <span class="catalog-navbar__arrow arrow">&#8250;</span>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <ul class="menu d-flex align-items-center justify-content-between">
+                            <li class="menu__list"><a href="#" class="menu__link">О компании</a></li>
+                            <li class="menu__list"><a href="#" class="menu__link">Акции</a></li>
+                            <li class="menu__list"><a href="#" class="menu__link">Новости</a></li>
+                            <li class="menu__list"><a href="#" class="menu__link">Блог</a></li>
+                            <li class="menu__list"><a href="#" class="menu__link">Эксперты</a></li>
+                            <li class="menu__list"><a href="#" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+    	<div class="container">
+    		<div class="row no-gutters">
+    			<div class="col-3">
+    				<ul class="catalog-menu">
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Катушки</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Удилища</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Приманки</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Боблеры</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Лески и шнуры</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Поплавки</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Крючки</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Аксессуары</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Одежда</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Снаряжение</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Электроника</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Зимняя рыбалка</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    					<li class="catalog-menu__list-item">
+    						<a href="#" class="catalog-menu__link">Другое</a>
+    						<span class="catalog-menu__arrow arrow">&#8250;</span>
+    					</li>
+    				</ul>
+    			</div>
+    			<div class="col-9">
+    				<div class="slider-main">
+    					<div class="spec-propose">
+    						<h1 class="spec-propose__title">Специальные <br>предложения</h1>
+    						<h4 class="spec-propose__title-item">катушка Adrenalin 7300 BC</h3>
+    						<p class="spec-propose__price">5 600 р.</p>
+    						<button class="spec-propose__buy-btn">Купить</button>
+    						<img src="img/spec-propose-reel-Adrenalin-7300-bc2.png" alt="Adrenalin-7300-bc" class="spec-propose__img">
+    					</div>
+    					<div class="slider-main__dots">
+    						<span class="slider-main__dot slider-main__dot_active"></span>
+    						<span class="slider-main__dot"></span>
+    						<span class="slider-main__dot"></span>
+    					</div>
+    				</div>
+    				<div class="small-propose-products d-flex justify-content-between">
+    					<div class="new-bait">
+    						<h4 class="new-bait__title">Новые <br>приманки</h4>
+    						<p class="new-bait__text">для подледной <br>ловли</p>
+    						<span class="arrow black-circ-arrow black-circ-arrow_position-bottom">&#8250;</span>
+    						<img src="img/new-bait.png" alt="" class="new-bait__img">
+    					</div>
+    					<div class="download-catalog">
+    						<h4 class="download-catalog__title">Скачайте <br>каталог</h4>
+    						<p class="download-catalog__text">для оптовиков</p>
+    						<span class="arrow black-circ-arrow black-circ-arrow_position-bottom">&#8250;</span>
+    						<img src="img/download-catalog.png" alt="" class="download-catalog__img">
+    					</div>
+    					<div class="exp-answers">
+    						<h4 class="exp-answers__title">Эксперты <br>отвечают</h4>
+    						<p class="exp-answers__text">на ваши вопросы</p>
+    						<span class="arrow black-circ-arrow black-circ-arrow_position-bottom">&#8250;</span>
+    						<img src="img/exp-answers.png" alt="" class="exp-answers__img">
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
 </html>
