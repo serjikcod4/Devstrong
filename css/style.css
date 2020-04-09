@@ -9,6 +9,12 @@ input {
 	background: none;
 	border: none;
 	outline: none;
+	padding: 0;
+}
+
+main {
+	overflow: hidden;
+	padding-top: 30px;
 }
 
 .color-blue {
@@ -133,7 +139,6 @@ input {
 
 .menu-nav {
 	background-color: #efefef;
-	margin-bottom: 30px;
 }
 
 .menu-nav .row {
@@ -433,7 +438,7 @@ main .row {
 }
 
 .black-circ-arrow {
-	display: block;
+	display: inline-block;
 	width: 25px;
 	height: 25px;
 	color: white;
@@ -441,6 +446,10 @@ main .row {
 	border-radius: 50%;
 	text-align: center;
 	line-height: 20px;
+	
+}
+
+.black-circ-arrow_margin-top {
 	margin-top: 32px;
 }
 
@@ -470,4 +479,206 @@ main .row {
 	right: 0px;
 }
 
+.bestsellers {
+	margin-top: 120px;
+}
+
+.bestsellers .container {
+	padding: 0 15px;
+	
+}
+
+.bestsellers__header {
+	border-top: 0.3px solid #efefef;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	width: 1170px;
+	margin: auto;
+}
+
+.bestsellers__title {
+	color: black;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.bestsellers__all-catalog {
+	margin: 0;
+	margin-left: 55px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #27ade0;
+	color: #27ade0;
+	font-weight: bold;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+.bestsellers__all-catalog:hover {
+	text-decoration: none;
+	color: #27ade0;
+}
+
+.bestsellers__arrows {
+	text-align: right;
+}
+
+.main-card-item {
+	position: relative;
+	background: rgb(62,196,243);
+	background: radial-gradient(circle, rgba(62,196,243,1) 0%, rgba(5,139,196,1) 65%);
+	padding: 23px 30px;
+	height: 487px;
+	max-height: 487px;
+	border-radius: 3px;
+}
+
+.main-card-item__title {
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 33px;
+}
+
+.main-card-item__title-item {
+	color: #4cd2fe;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 33px;
+	margin-bottom: 250px;
+}
+
+.main-card-item__img {
+	position: absolute;
+	height: 265px;
+	top:135px; right:5px;
+}
+
+.main-card-item__price {
+	font-size: 30px;
+	color: white;
+	font-weight: 500;
+	margin: 0;
+}
+
+.card-item {
+	position: relative;
+	padding: 20px;
+	border: 1px solid #efefef;
+	-webkit-box-shadow: 0px 5px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 13px -4px rgba(0,0,0,0.75);
+	transition: 0.3s;
+	height: 487px;
+	max-height: 487px;
+	border-radius: 3px;
+}
+
+.card-item:hover {
+	-webkit-box-shadow: 0px 17px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 17px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 17px 13px -4px rgba(0,0,0,0.75);
+}
+ .card-item:hover .card-item__heart{
+ 	display: inline-block;
+ }
+.card-item__img-container {
+	height: 235px;
+	max-height: 235px;
+}
+.card-item__img {
+	max-height: 235px;
+}
+
+.card-item__stars {
+	padding-bottom: 10px;
+	margin-bottom: 17px;
+}
+
+.card-item__text {
+	margin: 0;
+}
+
+.card-item__title {
+	color: black;
+	font-size: 16px;
+	
+}
+
+.card-item__price {
+	display: inline-block;
+	height: 35px;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.card-item__btn {
+	background: rgb(51,185,233);
+	background: linear-gradient(90deg, rgba(51,185,233,1) 0%, rgba(31,165,217,1) 50%, rgba(8,142,199,1) 100%);
+	transition: 0.3s;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 225px;
+	height: 55px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.card-item__btn:hover {
+	background: rgb(51,185,233);
+	background: linear-gradient(90deg, rgba(8,142,199,1) 0%, rgba(8,142,199,1) 50%, rgba(8,142,199,1) 100%);
+}
+
+.card-item__heart {
+	width: 25px;
+	height: 23px;
+	background-image: url(../img/card-item-heart.png);
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	display: none;
+}
+
+.card-item__heart:focus {
+	display: inline-block;
+}
+
+.card-item__hit {
+	position: absolute;
+	width: 58px;
+	height: 37px;
+	background: rgb(51,185,233);
+	background: linear-gradient(90deg, rgba(51,185,233,1) 0%, rgba(31,165,217,1) 50%, rgba(8,142,199,1) 100%);
+	top:40px;
+	left:-1px;
+	text-align: center;
+	line-height: 37px;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+	border-radius: 3px;
+}
+
+.card-item__discount {
+	background-color: #00963f;
+	position: absolute;
+	width: 85px;
+	height: 37px;
+	top:0px;
+	left:-1px;
+	text-align: center;
+	line-height: 37px;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+	border-radius: 3px;
+}
 
