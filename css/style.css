@@ -941,3 +941,24 @@ main .row {
 	top: 28px;
 	right: 10px;
 }
+
+.about-company {
+	margin-top: 95px;
+}
+
+.about-company .container {
+	padding: 0 15px;
+}
+
+.about-company__title {
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.about-company__text {
+	margin-bottom: 30px;
+	font-size: 14px;
+	line-height: 24px;
+}
