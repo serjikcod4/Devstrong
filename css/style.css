@@ -588,6 +588,7 @@ main .row {
 .card-item__img-container {
 	height: 235px;
 	max-height: 235px;
+	overflow: hidden;
 }
 .card-item__img {
 	max-height: 235px;
@@ -600,6 +601,7 @@ main .row {
 
 .card-item__text {
 	margin: 0;
+	height: 110px;
 }
 
 .card-item__title {
@@ -627,7 +629,6 @@ main .row {
 	letter-spacing: 3px;
 	width: 225px;
 	height: 55px;
-	margin-top: 20px;
 	border-radius: 3px;
 }
 
@@ -681,4 +682,21 @@ main .row {
 	color: white;
 	border-radius: 3px;
 }
+
+.card-item__price-old {
+	display: inline-block;
+	margin-left: 18px;
+	color: #6d6d6d;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+
+.card-item__price-text {
+	display: block;
+	font-size: 12px;
+	color: #00963f;
+	margin-top: -5px;
+}
+
+
 
