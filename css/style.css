@@ -832,3 +832,35 @@ main .row {
 	color: white;
 	font-size: 13px;
 }
+
+.subscribe {
+	padding-top: 60px;
+	padding-bottom: 45px;
+	background-color: #efefef;
+}
+
+.subscribe .container {
+	padding: 0 15px;
+}
+
+.subscribe__title {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.subscribe__input {
+	padding-top: 23px;
+	padding-bottom: 23px;
+	padding-left: 30px;
+	width: 70%;
+	height: 60px;
+	background-color: white;
+}
+
+.subscribe__btn {
+	width: 30%;
+	height: 60px;
+}
+
+
