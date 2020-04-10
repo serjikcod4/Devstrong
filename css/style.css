@@ -236,8 +236,8 @@ main {
 .menu__link {
     position: relative;
     display: inline-block;
-    height: 70px;
-    line-height: 70px;
+    height: 77px;
+    line-height: 77px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -1053,4 +1053,44 @@ main .row {
 
 .contacts-menu__text {
 	text-transform: inherit;
+}
+
+.footer-copyright {
+	background-color: #1d1e1e;
+}
+
+.footer-copyright .container {
+	padding: 50px 15px;
+	border-top: .3px solid rgba(52,53,53,100%);
+}
+
+.footer-copyright__text {
+	font-size: 11px;
+	color: white;
+	opacity: 50%;
+	margin: 0;
+}
+
+.social-icon {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.social__vk {
+	background-image: url(../img/vk.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.social__facebook {
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.social__instagram {
+	background-image: url(../img/instagram.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
