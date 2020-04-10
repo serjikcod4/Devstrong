@@ -40,6 +40,8 @@ main {
     padding: 0;
 }
 
+/* Меню с телефоном */
+
 .mobile-nav {
     background-color: black;
     padding-top: 10px;
@@ -106,6 +108,8 @@ main {
     margin-left: 35px;
 }
 
+/* Меню с поиском */
+
 .search-nav {
     padding-top: 40px;
     padding-bottom: 35px;
@@ -143,6 +147,8 @@ main {
     font-size: 22px;
     font-weight: bold;
 }
+
+/* Основное меню */
 
 .menu-nav {
     background-color: #efefef;
@@ -269,6 +275,8 @@ main {
     right: 0;
     margin: 0 auto;
 }
+
+/* Меню товаров */
 
 main .row {
     padding-left: 15px;
@@ -493,6 +501,8 @@ main .row {
     top: -30px;
     right: 0px;
 }
+
+/* Хит продаж */
 
 .bestsellers {
     margin-top: 120px;
@@ -725,6 +735,8 @@ main .row {
     margin-top: -5px;
 }
 
+/* Новые продукты */
+
 .new-products {
     margin-top: 120px;
 }
@@ -753,6 +765,8 @@ main .row {
     bottom: 140px;
     right: 15px;
 }
+
+/* Последние новости */
 
 .last-news {
     margin-top: 120px;
@@ -839,6 +853,8 @@ main .row {
     font-size: 13px;
 }
 
+/* Новостная рассылка */
+
 .subscribe {
     padding-top: 60px;
     padding-bottom: 45px;
@@ -874,6 +890,8 @@ main .row {
     width: 30%;
     height: 60px;
 }
+
+/* Скидки */
 
 .discount {
     padding-top: 60px;
@@ -948,6 +966,8 @@ main .row {
     right: 10px;
 }
 
+/* О компании */
+
 .about-company {
     margin-top: 95px;
 }
@@ -969,6 +989,8 @@ main .row {
     line-height: 24px;
     font-weight: 600;
 }
+
+/* Подвал */
 
 .footer {
     background-color: #1d1e1e;
@@ -1070,6 +1092,8 @@ main .row {
 	text-transform: inherit;
 	font-weight: 600;
 }
+
+/* Подвал с правами */
 
 .footer-copyright {
 	background-color: #1d1e1e;
