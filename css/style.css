@@ -1,7 +1,10 @@
+@import url('../fonts/fonts.css');
+
 html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Panton';
 }
 
 button,
@@ -99,7 +102,7 @@ main {
 .mobile-nav__text-phone {
     color: #009ee2;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     margin-left: 35px;
 }
 
@@ -138,7 +141,7 @@ main {
 
 .active-menu button>span {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .menu-nav {
@@ -203,7 +206,7 @@ main {
 
 .catalog-navbar__text {
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 20px;
     align-self: start;
@@ -219,7 +222,7 @@ main {
     transform: rotate(90deg);
     color: white;
     opacity: 50%;
-    font-size: 35px;
+    font-size: 30px;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -242,8 +245,9 @@ main {
     color: black;
     text-transform: uppercase;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: bold;
     transition: 0.3s;
+    letter-spacing: 1px;
 }
 
 .menu__link:hover {
@@ -293,7 +297,7 @@ main .row {
     position: relative;
     text-decoration: none;
     color: black;
-    font-weight: 700;
+    font-weight: bold;
     margin-left: 35px;
     font-size: 15px;
     letter-spacing: 0.5px;
@@ -322,11 +326,11 @@ main .row {
 
 .catalog-menu__arrow {
     display: inline-block;
-    font-size: 35px;
+    font-size: 30px;
     width: 30px;
     height: 30px;
     text-align: center;
-    line-height: 20px;
+    line-height: 27px;
     color: #b2b2b2;
 }
 
@@ -346,17 +350,17 @@ main .row {
 }
 
 .spec-propose__title {
-    font-weight: bold;
+    font-weight: 800;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin: 0;
     font-size: 40px;
 }
 
 .spec-propose__title-item {
     margin-top: 30px;
-    color: #27ade0;
+    color: #4cd2fe;
 }
 
 .spec-propose__price {
@@ -442,7 +446,7 @@ main .row {
 .new-bait__text,
 .download-catalog__text,
 .exp-answers__text {
-    color: #27ade0;
+    color: #4cd2fe;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -511,7 +515,7 @@ main .row {
 .bestsellers__title,
 .products-nav__title {
     color: black;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 32px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -554,7 +558,7 @@ main .row {
 .main-card-item__title {
     color: white;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 33px;
 }
 
@@ -630,7 +634,7 @@ main .row {
 .card-item__title {
     color: black;
     font-size: 16px;
-
+	font-weight: 600;
 }
 
 .card-item__price {
@@ -647,7 +651,7 @@ main .row {
     transition: 0.3s;
     color: white;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     width: 225px;
@@ -795,7 +799,7 @@ main .row {
 .news-content__title {
     font-size: 16px;
     color: black;
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin: 0;
@@ -806,6 +810,7 @@ main .row {
     margin-bottom: 20px;
     font-size: 13px;
     color: #1d1e1e;
+    font-weight: 600;
 }
 
 .news-content__link {
@@ -846,7 +851,7 @@ main .row {
 
 .subscribe__title {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: bold;
     margin-bottom: 35px;
 }
 
@@ -891,7 +896,7 @@ main .row {
 .discount__title {
     color: white;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: 2px;
     margin: 0;
 }
@@ -903,6 +908,7 @@ main .row {
     font-weight: 500;
     top: 57px;
     right: 171px;
+    font-weight: 600;
 }
 
 .discount__img {
@@ -961,6 +967,7 @@ main .row {
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 24px;
+    font-weight: 600;
 }
 
 .footer {
@@ -975,6 +982,9 @@ main .row {
 .footer-logo__text {
     font-size: 13px;
     color: white;
+    opacity: 50%;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .footer__list-links {
@@ -988,6 +998,7 @@ main .row {
     color: #27ade0;
     border-bottom: 1px solid #27ade0;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .footer__link:hover {
@@ -1004,6 +1015,7 @@ main .row {
 	font-size: 12px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .footer-menu__list {
@@ -1019,7 +1031,8 @@ main .row {
 	font-size: 12px;
 	text-transform: uppercase;
 	opacity: 50%;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
 
 .footer-menu__link:hover {
@@ -1033,6 +1046,7 @@ main .row {
 	text-transform: uppercase;
 	opacity: 50%;
 	letter-spacing: 0.5px;
+	font-weight: bold;
 }
 
 .optovic-menu__link {
@@ -1044,6 +1058,7 @@ main .row {
     margin-bottom: 20px;
     opacity: 100%;
     text-transform: lowercase;
+    font-weight: bold;
 }
 
 .optovic-menu__link:hover {
@@ -1053,6 +1068,7 @@ main .row {
 
 .contacts-menu__text {
 	text-transform: inherit;
+	font-weight: 600;
 }
 
 .footer-copyright {
@@ -1069,6 +1085,8 @@ main .row {
 	color: white;
 	opacity: 50%;
 	margin: 0;
+	font-weight: 600;
+	letter-spacing: 0.5px;
 }
 
 .social-icon {
